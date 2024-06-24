@@ -1,0 +1,135 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home-main{
+  display: flex;
+  width: 100vw;
+  height:100vh;
+}
+.home-main img{
+  margin-top: 4.5rem;
+  width: 40rem;
+  height: 40rem;
+}
+.right-part{
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+.right-part b{
+  font-size: 7rem;
+}
+
+
+
+/* CSS */
+.play-btn {
+  appearance: btn;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.play-btn:focus {
+  text-decoration: none;
+}
+
+.play-btn:hover {
+  text-decoration: none;
+}
+
+.play-btn:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.play-btn:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .play-btn {
+    padding: 12px 50px;
+  }
+}
+
+/* page2 */
+
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-score b{
+  line-height: 5.5rem;
+  margin-left: 1.9rem;
+  font-size: 5rem;
+}
+.total-score p{
+  margin-left: 0.7rem;
+  line-height: 0px;
+  font-size: 1.2rem;
+}
+.nums{
+  display: flex;
+  width: 25rem;
+  justify-content: space-between;
+  margin: 0.7rem 0.7rem;
+}
+
+.numbox{
+  cursor: pointer;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.num-text{
+  display: flex;
+  flex-direction: column;
+  margin-right: 3rem;
+}
+
+.num-text p{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.Not-selected{
+  color:red;
+  top:0;
+}
+
+.selected{
+  background-color: black;
+  color: whitesmoke;
+}

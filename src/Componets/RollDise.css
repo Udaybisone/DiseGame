@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    font-size: 1.4rem;
+}
+
+.Reset-btn{
+    font-size: 1.1rem;
+    padding: 5px 40px 5px 40px;
+    margin: 20px 0;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: 0.3s background ease-in;
+    cursor: pointer;
+}
+.Reset-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.Rool-btn{
+    font-size: 1.1rem;
+    padding: 5px 40px 5px 40px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s background ease-in;
+    cursor: pointer;
+}
+
+.Rool-btn:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.main{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    border-radius: 10px;
+    max-width: 62rem;
+    background-color: bisque;
+    padding: 10px 30px 10px 30px;
+}
+
+.btn{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
