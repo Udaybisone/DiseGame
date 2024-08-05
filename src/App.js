@@ -13,7 +13,7 @@ function App() {
   const [isNumSelected, setisNumSelected] = useState(false)
   const [ShowRoolsHook,setShowRoolsHook] = useState(false)
   const toggelgameplay = ()=>{
-    setisgamestarted((pre) => !pre);
+    setisgamestarted((prev) => !prev);
   }
 
 
