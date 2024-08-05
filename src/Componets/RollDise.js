@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import './RollDise.css'
 
 export default function RollDise(props) {

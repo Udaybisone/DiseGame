@@ -26,7 +26,7 @@ function App() {
       }else{
         setisNumSelected(false);
         const randomNumber = randomNum(1,7);
-      setimg_no((prev) => randomNumber)
+      setimg_no(() => randomNumber)
 
       if(SelectedNum===randomNumber){
         setScore((prev)=> prev + randomNumber);
